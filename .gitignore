@@ -27,6 +27,21 @@
 *.lib
 
 # Executables
+# Executables
 *.exe
 *.out
 *.app
+build
+*.cmake
+!cmake/*.cmake
+build_local/CMakeCache.txt
+*.bin
+build_local/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c
+build_local/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+*.check_cache
+*.log
+build_local/CMakeFiles/CMakeRuleHashes.txt
+build_local/CMakeFiles/Makefile2
+*.marks
+build_local/CMakeFiles/TargetDirectories.txt
+build_local/CMakeFiles/vtkModuleAutoInit_9b5895f873bcba09752b0c704bf968d6.h
